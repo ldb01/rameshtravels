@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 12px 50px; /* Added 50px padding on both sides */
+  background-color: #ffffff;
+  gap: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.logo img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.logo-text {
+  margin-left: 12px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Search box shadow */
+  transition: box-shadow 0.3s ease;
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  margin-left: 8px;
+  font-size: 16px;
+  background: transparent;
+  font-weight: bold; /* Bold search input */
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.buttonthingy {
+  display: flex; /* Aligns items in a row */
+  gap: 15px; /* Space between icons */
+  align-items: center; /* Vertically aligns with navbar */
+  margin-left: auto; /* Pushes it to the right */
+}
+
+.buttonthingy a {
+  display: flex; /* Ensures full clickable area */
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 30px; /* Adjust size */
+  height: auto;
+  cursor: pointer;
+}
+
